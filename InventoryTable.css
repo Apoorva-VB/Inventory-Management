@@ -1,0 +1,94 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inventory-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+.tin {
+  display: flex;
+  margin-left: auto;
+}
+.sort-dropdown,
+.filter-dropdown {
+  margin-right: 5px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  position: relative;
+  color: #333;
+}
+.add-button {
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.add-button:hover {
+  filter: brightness(120%);
+  border: none;
+  outline: 0;
+}
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.inventory-table th,
+.inventory-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+.inventory-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.actions-edit {
+  border: 1px solid #c3c7ce;
+  background-color: #ffffff;
+  color: black;
+
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.actions-cancel {
+  border: 1px solid rgb(175, 82, 82);
+  background-color: #ffffff;
+  color: black;
+
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.actions button:hover {
+  filter: brightness(120%);
+  border: 1px solid #d0d5dd;
+  outline: 0;
+}
+
+.low-quantity {
+  border: 3px solid;
+  border: none;
+  /* border-color: #b30000; */
+  background-color: rgb(248, 201, 201);
+}
